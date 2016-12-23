@@ -2,6 +2,7 @@ package kumbasar;
 
 import java.util.HashMap;
 
+
 public class JCaesarCipherMain {
 	
 	final private char[] ALPHABET = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
@@ -62,6 +63,7 @@ public class JCaesarCipherMain {
 	public static void main(String[] args) {
 		JCaesarCipherMain main = new JCaesarCipherMain();
 		main.setCaesar("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG");
+		System.out.println("Decoded String: " + JCipherUtil.decodeBase64("VEhFIFFVSUNLIEJST1dOIEZPWCBKVU1QUyBPVkVSIFRIRSBMQVpZIERPRw=="));
 		main.bruteForce();
 	}
 }
