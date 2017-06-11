@@ -3,5 +3,5 @@
   <groupId>JCaesarCipher</groupId>
   <artifactId>JCaesarCipher</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <package>jar</package>
+  <packaging>jar</packaging>
 </project>
