@@ -3,17 +3,5 @@
   <groupId>JCaesarCipher</groupId>
   <artifactId>JCaesarCipher</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+  <package>jar</package>
 </project>
